@@ -48,19 +48,24 @@ export default function Modal({
         </DialogBody>
         <DialogFooter className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Link
-              className="text-accent-primary dark:text-accent-secondary"
-              to={project?.links?.live}
-            >
-              Live Demo
-            </Link>
-            <Link
-              className="text-dark-secondary dark:text-white-secondary"
-              to={project?.links?.github?.front}
-            >
-              Github
-            </Link>
+            {project?.links?.live && (
+              <Link
+                className="text-accent-primary dark:text-accent-secondary"
+                to={project?.links?.live}
+              >
+                Live Demo
+              </Link>
+            )}
+            {project?.links?.github?.front && (
+              <Link
+                className="text-dark-secondary dark:text-white-secondary"
+                to={project?.links?.github?.front}
+              >
+                Github
+              </Link>
+            )}
           </div>
+
           <Button
             variant="text"
             color="red"

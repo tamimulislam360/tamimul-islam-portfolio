@@ -11,7 +11,7 @@ type ButtonTypes = {
 }
 
 const PrimaryButton = ({ children, className, type }: ButtonProps & ButtonTypes) => {
-    const hndleClick = (e: MouseEvent) => {
+    const hndleClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
         e.preventDefault();
     }
     return (
