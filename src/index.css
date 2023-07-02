@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .translate-y-custom {
+      transform: translateY(calc(-100% + 192px));
+    }
+  }
+  
+@layer components{
+  .section-bg-1{
+    @apply py-16 bg-white-primary dark:bg-dark-primary dark:text-white-primary border-y border-border-primary dark:border-border-secondary
+  }
+
+  .section-bg-2{
+    @apply section-bg-1 dark:bg-dark-secondary dark:text-white-primary
+  }
+
+  .section-container{
+    @apply max-w-screen-xl mx-auto px-4
+  }
+}
+
+
+.linkActive{
+  color: red;
+}

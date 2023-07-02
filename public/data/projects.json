@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Zetapp",
+        "slug": "Zetapp - Landing page for a mobile app",
+        "thumbnail": "/src/assets/projects/zetapp.png",
+        "description": "It is a landing page for a mobile app called zetapp avilable on google play store. Built with Next.js means SPA with multi routing.",
+        "links": {
+            "github": {
+                "front": "https://github.com/tamimulislam360/zetapp",
+                "back": ""
+            },
+            "live": "https://zetapp-delta.vercel.app/"
+        },
+        "technologies": ["React", "Next.js", "Tailwind", "Material Tailwind", "Swiper.js"]
+    },
+    {
+        "id": 2,
+        "title": "reBook",
+        "slug": "reBook - An online store for second hand books.",
+        "thumbnail": "/src/assets/projects/rebook.png",
+        "description": "It is a second hand book selling store built with MERN stack, where sellers can sell their old books and buyers can buy them. Admin can manage sellers as well as buyers.",
+        "links": {
+            "github": {
+                "front": "https://github.com/tamimulislam360/reBook",
+                "back": "https://github.com/tamimulislam360/reBook_server"
+            },
+            "live": "https://rebook-29916.web.app/"
+        },
+        "technologies": ["React", "Tailwind", "Material Tailwind", "Swiper.js"]
+    },
+    {
+        "id": 3,
+        "title": "Doctors",
+        "slug": "Doctors - An online doctors platform",
+        "thumbnail": "/src/assets/projects/doctors.png",
+        "description": "It is a online medical platform built with MERN stack, where users can make an appointment and interact with favourite doctors.",
+        "links": {
+            "github": {
+                "front": "",
+                "back": ""
+            },
+            "live": "https://doctors-portal-4082b.web.app/"
+        },
+        "technologies": ["React", "Tailwind", "Material Tailwind", "Swiper.js"]
+    },
+    {
+        "id": 4,
+        "title": "SWT",
+        "slug": "Study with Tamim - personal course selling platform",
+        "thumbnail": "/src/assets/projects/study-with-tamim.png",
+        "description": "It is a online based personal course selling platform built with MERN stack, where users can buy courses, review courses and can see other’s reviews.",
+        "links": {
+            "github": {
+                "front": "https://github.com/tamimulislam360/study_with_tamim",
+                "back": "https://github.com/tamimulislam360/study_with_tamim_server"
+            },
+            "live": "https://study-with-tamim.web.app/"
+        },
+        "technologies": ["React js", "NodeJs", "MongoDB", "ExpressJS", "Tailwind", "Daisy UI"]
+    }
+]
